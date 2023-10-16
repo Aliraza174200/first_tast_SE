@@ -7,7 +7,7 @@ def calculator():
     NUM1 =  int(input("Enter the 1st number: "))
     NUM2 =  int(input("Enter the 2nd number: "))
     oper =  str(input("Enter the operation \n1.Add \n2.Subtract \n3.Multiply \n4.Divide \n5.Modulas   : ")).lower()
-
+    #hello
     if oper == "add" :
         add_res = NUM1 + NUM2
         print(f"The result of the addition of {NUM1} and {NUM2} is :",add_res)
